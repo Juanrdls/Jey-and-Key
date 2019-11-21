@@ -1,0 +1,54 @@
+/*Pagina Proyecto*/
+      #horizontal li{
+        display: inline;
+        }
+        #horizontal li a {
+            font-family: Arial;
+            font-size: 31px;
+            text-decoration: none;
+            float: center;
+            padding: 40px;
+            }
+        #carta.html {
+                font-family: Arial;
+                font-size: 31px;
+                text-decoration: none;
+                float: center;
+                padding: 40px;
+            }
+        #proyecto.html {
+                font-family: Arial;
+                font-size: 31px;
+                text-decoration: none;
+                float: center;
+                padding: 40px;
+            }
+        #reserva.html {
+                font-family: Arial;
+                font-size: 31px;
+                text-decoration: none;
+                float: center;
+                padding: 40px;
+            }
+        #localizacion.html {
+                font-family: Arial;
+                font-size: 31px;
+                text-decoration: none;
+                float: center;
+                padding: 40px;
+            }
+        #critica.html {
+                font-family: Arial;
+                font-size: 31px;
+                text-decoration: none;
+                float: center;
+                padding: 40px;
+            }
+/*Pagina Carta*/
+table {width:40%;}
+table, th, td{border: 2px solid black; border-collapse: collapse;}
+      th, td {text-align: center;}
+#table{background-color:rgb(7, 134, 134)}
+#table1{background-color:rgb(7, 134, 134)}
+#table2{background-color:#A52A2A}
+#naranja{color:rgb(255, 145, 0)}

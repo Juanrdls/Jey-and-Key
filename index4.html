@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>RESERVAS</title>
+        <link rel="shortcut icon" type="image/jpg" href="imagenes/favicon.jpg"/>
+        <link rel="stylesheet" type="text/css" href="proyecto.css">
+    </head>
+    <body background="imagenes/taberna.jpg">
+        <meta charset=UTF 8/>
+        <ul id="horizontal">
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="index1.html">Carta</a></li>
+            <li><a href="index2.html">Critica</a></li>
+            <li><a href="index3.html">Localizacion</a></li>
+        </ul><br><br>
+        <br><br><br><br><br><br>
+        <h3>Rellena La Reserva</h3>
+        <form action="ingreso.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+        <legend>RESERVA DE MESAS</legend>
+        <label for="NPersonas">Nº de Personas</label> <br/>
+        <select id="Nº de Personas" name="NPersonas" required>
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="01">04</option>
+            <option value="02">05</option>
+            <option value="03">06</option>
+            <option value="04">07</option>
+            <option value="05">08</option>
+            <option value="06">09</option>
+            <option value="07">10</option>
+            <option value="08">11</option>
+            <option value="09">12</option>
+            <option value="10">13</option>
+            <option value="11">14</option>
+            <option value="12">15</option>
+            <option value="13">16</option>
+            <option value="14">17</option>
+            <option value="15">18</option>
+            <option value="16">19</option>
+            <option value="17">20</option>
+        </select>
+        <br><br>
+        <label for="fecha_dia">Fecha de Reserva</label> <br/>
+        <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+        de
+        <select id="fecha_mes" name="fecha_mes" required>
+          <option value="1">Enero</option>
+          <option value="2">Febrero</option>
+          <option value="3">Marzo</option>
+          <option value="4">Abril</option>
+          <option value="5">Mayo</option>
+          <option value="6">Junio</option>
+          <option value="7">Julio</option>
+          <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+        <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" required/>
+        <br/><br/>
+        <label for="temasDeInteres">Reservas Especiales</label> <br/>
+        <select multiple="multiple" size="5" id="Especiales" name="Especiales">
+        <option value="Bodas">Bodas</option>
+        <option value="Comuniones">Comuniones</option>
+        <option value="Comidas">Comidas de Empresas</option>
+        <option value="Bautizos">Bautizos</option>
+        <option value="Graduaciones">Graduaciones</option>
+        </select>
+        <p class="form-submit">
+                <input name="Enviar" type="submit" id="submit" class="submit" value="Enviar">
+        </p>
+    </fieldset>
+    </form>
+    <h2>Para las reservas Especiales contactar al 660793409</h2>
+</html>
