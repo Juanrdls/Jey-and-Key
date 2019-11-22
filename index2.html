@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>Critica</title>
@@ -14,8 +13,8 @@
             <li><a href="index4.html">Reserva</a></li>
         </ul><br><br>
         <br><br><br><br><br><br>
-        <h3><b>Critica</b></h3>
-        <form action="reserva.php" method="post" enctype="multipart/form-data"></form>
+        <h3>Critica</h3>
+        <form action="ingreso1.php" method="post" enctype="multipart/form-data"></form>
         <fieldset>
         Nombre<br>
         <input type="text" name="nombre" value="" size="20" maxlength="30" required/>
@@ -42,7 +41,6 @@
         <br>
         <select id="Bebidas" name="Bebidas" required>
         <br>
-        <option value="00">-Bebidas-</option>
         <option value="01">Cerveza</option>
         <option value="02">Cerveza Sin</option>
         <option value="03">Refrescos</option>
@@ -66,12 +64,12 @@
               --><input id="radio5" type="radio" name="estrellas" value="1"><!--
               --><label for="radio5">★</label>
             </p>
+        </form>
         <p class="form-submit">
             <input name="submit" type="submit" id="submit" class="submit" value="Enviar">
+            <input type="hidden" name="Enviar" value="200" id="Enviar">
+            <input type="hidden" name="Enviar" id="Enviar" value="0">
         </p>
         </fieldset>
-        </form>
-        <h2><u>Ayudanos a seguir mejorando para nuestra 4ª estrella</u></h2>
-        <img src="imagenes/michelin.jpg" width="200" height="200">
     </body>
 </html>
